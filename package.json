@@ -11,5 +11,13 @@
     "Laboratoria"
   ],
   "author": "Carolina Lastra",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "save-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.0"
+  }
 }
