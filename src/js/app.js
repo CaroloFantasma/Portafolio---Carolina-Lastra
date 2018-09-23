@@ -1,3 +1,4 @@
+// Animación texto
 $(document).ready(function() {
   let mouseX, mouseY;
   let ww = $(window).width();
@@ -12,3 +13,11 @@ $(document).ready(function() {
     $('.title').css({'background-position': traX + '%' + traY + '%' });
   });
 });
+
+function aboutMe() {
+  location.href = '#aboutMe';
+}
+
+function navBarMenu() {
+  location.href = '#navBarMenu';
+}

@@ -15,35 +15,38 @@
 
 <body>
 
-  <!-- Inicio navbar -->
-  <nav>
-    <div class="navbar navbar-expand-lg nav">
-      <div class="nav-header">
-        <div class="nav-title">
-          Carolina Lastra
+  <!-- Inicio primera pantalla -->
+  <header id="navBarMenu">
+    <nav>
+      <!-- Inicio navbar -->
+      <div class="navbar navbar-expand-lg nav">
+        <div class="nav-header">
+          <div class="nav-title">
+            <a onclick="navBarMenu()">Carolina Lastra</a> 
+          </div>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        <input type="checkbox" id="nav-check">
+        <div class="nav-links">
+          <a onclick="aboutMe()">Conóceme</a>
+          <a href="" target="">Mis trabajos</a>
+          <a href="" target="">Currículum</a>
+          <a href="" target="">Redes de contacto</a>
         </div>
       </div>
-      <div class="nav-btn">
-        <label for="nav-check">
-          <span></span>
-          <span></span>
-          <span></span>
-        </label>
-      </div>
-      <input type="checkbox" id="nav-check">
-      <div class="nav-links">
-        <a href="//github.io/jo_geek" target="_blank">Conóceme</a>
-        <a href="http://stackoverflow.com/users/4084003/" target="_blank">Mis trabajos</a>
-        <a href="https://in.linkedin.com/in/jonesvinothjoseph" target="_blank">Currículum</a>
-        <a href="https://codepen.io/jo_Geek/" target="_blank">Redes de contacto</a>
-      </div>
+    </nav>
+    <!-- Cierre navbar -->
+    <div class="container" id="textTitle">
+      <div class="title">Front-end developer</div>
+      <div class="subtitle"> trabajo en equipo + ingenio + empatía + inteligencia + curiosidad </div>
     </div>
-  </nav>
-  <!-- Fin navbar -->
-  <div class="container" id="textTitle">
-    <div class="title">Front-end developer</div>
-    <div class="subtitle"> trabajo en equipo + ingenio + empatía + inteligencia + curiosidad </div>
-  </div>
+  </header>
 
   <!-- Image -->
   <div class="stars">
@@ -53,7 +56,20 @@
       </div>
     </div>
   </div>
-  <!-- Fin image -->
+  <!-- Cierre image -->
+  <!-- Cierre primera pantalla -->
+
+  <!-- Inicio segunda pantalla -->
+  <section id="aboutMe">
+      <div class="card mb-3 card">
+          <img class="card-img-top cardImg" src="../assets/img/combi.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Sobre mí</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, molestiae aliquam! Hic perferendis, velit consectetur nemo qui dolorum, vero libero assumenda nobis modi neque omnis ratione ipsum. Quod, illum sit.</p>
+          </div>
+        </div>
+  </section>
+  <!-- Cierre segunda pantalla -->
 
 
   <!-- Bootstrap -->
