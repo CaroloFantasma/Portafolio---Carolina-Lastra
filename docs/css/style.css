@@ -240,7 +240,7 @@ animation:move-twink-back 200s linear infinite;
   width: 75%;
   margin-right: 10%;
   margin-left: 15%;
-  margin-bottom: 2%;
+  margin-bottom: 6%;
 }
 
 .cardProyectOne {
@@ -257,9 +257,16 @@ animation:move-twink-back 200s linear infinite;
 }
 
 #skills {
-  width: 100%;
   height: 100%;
   background-color: rgba(114, 109, 109, 0.849);
+}
+
+#iconsGroup {
+background-color: #Fafafa;
+width: 60%;
+height: 30em;
+margin-bottom:3%;
+margin-left: 20%;
 }
 
 @media (max-width: 768px) {
@@ -331,4 +338,36 @@ animation:move-twink-back 200s linear infinite;
     height: 10em;
   }
 }
+
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+.skillsIcon {
+  display: inline-block;
+	box-sizing: border-box;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(34, 23, 23, 0.6);
+	transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
+  font-size: 70px;
+}
+
+.iconAnimation {
+  display: inline-block;
+  margin: 3.5%;
+}
+
 
