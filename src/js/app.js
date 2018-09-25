@@ -22,3 +22,11 @@ function navBarMenu() {
   location.href = '#navBarMenu';
 }
 
+function projects() {
+  location.href = '#projects';
+}
+
+function skills() {
+  location.href = '#skills';
+}
+
