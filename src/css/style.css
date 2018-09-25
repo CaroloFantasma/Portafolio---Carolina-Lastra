@@ -262,6 +262,7 @@ animation:move-twink-back 200s linear infinite;
   background-color: rgba(114, 109, 109, 0.849);
 }
 
+
 @media (max-width: 768px) {
 	.nav > .nav-links > a {
 	padding: 15px 10px 14px 13px;
@@ -331,4 +332,34 @@ animation:move-twink-back 200s linear infinite;
     height: 10em;
   }
 }
+
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+.skillsIcon {
+  display: inline-block;
+	width: 70px;
+	height: 180px;
+	box-sizing: border-box;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
+  font-size: 45px;
+  margin: 1%;
+}
+
 
