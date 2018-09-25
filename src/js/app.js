@@ -21,3 +21,4 @@ function aboutMe() {
 function navBarMenu() {
   location.href = '#navBarMenu';
 }
+
