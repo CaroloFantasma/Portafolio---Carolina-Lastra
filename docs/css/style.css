@@ -195,12 +195,12 @@ animation:move-twink-back 200s linear infinite;
 .title {
   font-family: 'Raleway', sans-serif;
   color: transparent;
-  font-size: 75px;
+  font-size: 80px;
   background: url("https://images.all-free-download.com/images/graphiclarge/abstract_green_blue_low_poly_background_vector_illustration_570260.jpg") repeat;
   -webkit-background-clip: text;
-  padding-top: 1.2em;
+  padding-top: 1.8em;
   position:relative;
-  padding-left: 6em;
+  padding-left: 5em;
   line-height:90px;
   letter-spacing: -8px;
   position:relative;
@@ -211,10 +211,10 @@ animation:move-twink-back 200s linear infinite;
   display: block;
   text-transform: uppercase;
   padding-top:10px;
-  text-align: right;
+  margin-left: 28.5em;
   position:relative;
   z-index:2;
- 
+  font-size: 15px;
 }
 /* Fin animación título Front-end */
 
@@ -222,11 +222,11 @@ animation:move-twink-back 200s linear infinite;
 #aboutMe {
   width: 100%;
   height: 100%;
-  background-color: rgba(180, 164, 164, 0.849);
-  padding-top: 2%;
+  background-color: rgba(114, 109, 109, 0.849);
+  padding-top: 5.5%;
 }
 
-.card {
+.cardAboutMe {
   width: 50%;
   height: 33.4em;
   margin-left: 25%;
@@ -234,6 +234,32 @@ animation:move-twink-back 200s linear infinite;
 
 .cardImg {
   height: 20em;
+}
+
+.cardProyectGroup {
+  width: 75%;
+  margin-right: 10%;
+  margin-left: 15%;
+  margin-bottom: 2%;
+}
+
+.cardProyectOne {
+  align-content: center;
+  margin-left: 3%;
+  margin-right: 8%;
+  border-radius: 10%;
+}
+
+#projects {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(114, 109, 109, 0.849);
+}
+
+#skills {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(114, 109, 109, 0.849);
 }
 
 @media (max-width: 768px) {
@@ -244,9 +270,10 @@ animation:move-twink-back 200s linear infinite;
 
   .title {
     font-size: 65px;
-    padding-left: 2.3em;
     letter-spacing: 0.5px;
     padding-left: 0%;
+    text-align: center;
+    margin-top: 0;
   }
 
   #developerImg {
@@ -255,9 +282,10 @@ animation:move-twink-back 200s linear infinite;
   }
 
   .subtitle {
-    font-size: 15px;
+    font-size: 14px;
     text-align: center;
     padding-top: 1em;
+    margin-left: 0;
   }
 
   .card {
@@ -287,7 +315,8 @@ animation:move-twink-back 200s linear infinite;
   }
 
   .subtitle {
-    font-size: 12px;
+    font-size: 10px;
+    margin-left: 0;
     text-align: center;
     padding-top: 1.8em;
   }
@@ -302,8 +331,4 @@ animation:move-twink-back 200s linear infinite;
     height: 10em;
   }
 }
-
-
-
-
 
